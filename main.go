@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	log.Namespace = "recipe-api"
+	log.Namespace = "observation-api-stub"
 	configuration, configErr := config.Get()
 	if configErr != nil {
 		log.Error(configErr, nil)
